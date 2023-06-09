@@ -1,3 +1,50 @@
+@font-face {
+  font-family: "Mark OT";
+  src: local("Mark OT"),
+  url("./assets/Fonts/MarkOT.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Mark OT";
+  src: local("Mark OT"),
+  url("./assets/Fonts/MarkOT-Bold.otf") format("opentype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Mark OT";
+  src: local("Mark OT"),
+  url("./assets/Fonts/MarkOT-Book.otf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Mark OT";
+  src: local("Mark OT"),
+  url("./assets/Fonts/MarkOT-Thin.otf") format("opentype");
+  font-weight: thin;
+}
+
+@font-face {
+  font-family: "Mark OT";
+  src: local("Mark OT"),
+  url("./assets/Fonts/MarkOT-Regular.otf") format("opentype");
+  font-weight: lighter;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Mark OT, serif;
+  box-sizing: border-box;
+  font-family: Mark OT;
+}
+
+html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
