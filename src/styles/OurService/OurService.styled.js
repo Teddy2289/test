@@ -30,7 +30,7 @@ export const ContainerItem = styled.div`
 export const Infos = styled.div`
   margin: 0 31px;
 
-  @media (min-width: 760px) {
+  @media (min-width: 768px) {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -43,7 +43,7 @@ export const Infos = styled.div`
 export const Image = styled.img`
   max-width: 100%;
   height: auto;
-  @media (min-width: 760px) {
+  @media (min-width: 768px) {
     width: 50%;
   }
 `;
@@ -54,7 +54,7 @@ export const Title = styled.h1`
   font-weight: normal;
   text-align: center;
   
-  @media (min-width: 760px) {
+  @media (min-width: 768px) {
     text-align: center;
   }
 `;
@@ -77,7 +77,7 @@ export const ButtonItem = styled.button`{
   outline:none;
   border:none;
 
-  @media (min-width: 760px) {
+  @media (min-width: 768px) {
     background-color: #F09291;
     margin-top: 20px;
     margin-bottom: 20px;

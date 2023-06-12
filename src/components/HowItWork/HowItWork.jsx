@@ -19,6 +19,7 @@ const HowItWork = () => {
             <List>
                 <Title>How it works</Title>
                 <p>Lumi’s A, B, Cs, to better Zzzzs</p>
+                <div className='div-interne'>
                 <ListItemContainer>
                     <Attr>A.</Attr>
                     <Content><span>We coach</span>. Our Pediatric sleep experts will take you step-by-step to sleep success</Content>
@@ -31,6 +32,7 @@ const HowItWork = () => {
                     <Attr>C.</Attr>
                     <Content><span>We analyze.</span> Daily and weekly sleep insight reports measure your baby’s progress</Content>
                 </ListItemContainer>
+                </div>
                 <p className="paragraph2">Zzzzz your baby sleeps!</p>
                 <Buttons text="get started"/>
             </List>

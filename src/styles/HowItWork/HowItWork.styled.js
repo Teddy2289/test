@@ -53,7 +53,7 @@ export const Title = styled.h2`
 `;
 
 
-export const List = styled.ul`
+export const List = styled.div`
   list-style-type: none;
   display: flex;
   flex-direction: column;
@@ -65,9 +65,14 @@ export const List = styled.ul`
     font-weight: 400;
   }
 
+  .div-interne{
+    
+  }
+
   
   @media (min-width: 768px) {
-    width: 50%;
+    width: 40%;
+    margin:0 auto;
     padding: 20px;
     
     & button {

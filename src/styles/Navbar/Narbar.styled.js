@@ -9,7 +9,7 @@ export const Header = styled.header`
   color: #fff;
   position: relative;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     flex-direction: column;
     height: auto;
     padding-bottom: 1rem;
@@ -18,7 +18,7 @@ export const Header = styled.header`
 
 export const Logo = styled.a`
    {
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 768px) {
       margin-top: 10px;
     }
   }
@@ -30,7 +30,7 @@ export const Nav = styled.nav`
   justify-content: center;
   flex-grow: 1;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     flex-direction: column;
     position: fixed;
     top: -100vh;
@@ -67,7 +67,7 @@ export const StyledLink = styled.a`
     text-decoration: underline;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     font-size: 1rem;
   }
 `;
@@ -83,7 +83,7 @@ export const NavButton = styled.button`
   opacity: 0;
   font-size: 1.8rem;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     visibility: visible;
     opacity: 1;
     position: absolute;
@@ -94,7 +94,7 @@ export const NavButton = styled.button`
 `;
 
 export const CloseButton = styled(NavButton)`
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     display: none;
   }
 `;
@@ -105,7 +105,7 @@ export const AuthDiv = styled.div`
     right: 25px;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     position: relative;
     margin-left: 56px;
   }
