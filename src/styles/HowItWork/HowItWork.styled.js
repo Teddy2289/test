@@ -65,15 +65,10 @@ export const List = styled.div`
     font-weight: 400;
   }
 
-  .div-interne{
-    
-  }
-
-  
   @media (min-width: 768px) {
-    width: 40%;
+    width: 50%;
     margin:0 auto;
-    padding: 20px;
+    padding: 56px;
     
     & button {
       width: 50%;

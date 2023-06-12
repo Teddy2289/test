@@ -28,7 +28,7 @@ export const Section = styled.section`
     justify-content: flex-end;
     
     button{
-      width:20%;
+      width:auto;
       margin:30px auto;
       background-color:#F09291;
     }
