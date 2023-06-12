@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import mobilebanner from "../../assets/Images/home-banner1-mobile.jpg";
+import banner_desktop from "../../assets/Images/home-banner1-desktop.jpg";
 
 export const Section = styled.section`
   background-image: url(${mobilebanner});
@@ -7,27 +8,46 @@ export const Section = styled.section`
   background-position: center;
   padding: 40px;
   display: flex;
+  align-items: center;
   gap: 20px;
   flex-direction: column;
-  height: 70vh;
+  height: 90vh;
   justify-content: flex-end;
 
+  button{
+    width:100%;
+  }
+
   @media (min-width: 768px) {
-    padding: 40px;
+    background-image: url(${banner_desktop});
+    background-size: cover;
+    align-items: end;
+    height: 100vh;
+    width:100%;
+    flex-direction:row;
+    justify-content: flex-end;
+    
+    button{
+      width:20%;
+      margin:30px auto;
+      background-color:#F09291;
+    }
   }
 `;
 
 export const Container = styled.div`
   background-color: #3a3a3c61;
   padding: 20px;
-  width: 332px;
-  height: 190px;
+  width: 100%;
+  height: auto;
   border-radius: 8px;
-
+ 
   @media (min-width: 768px) {
     max-width: 600px;
     margin: 0 auto;
     padding: 40px;
+    width: 0;
+    visibility: hidden;
   }
 `;
 

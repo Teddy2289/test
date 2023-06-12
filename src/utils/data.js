@@ -1,6 +1,5 @@
 import image1 from "../assets/Images/our-mission.jpg"
 import image2 from "../assets/Images/lumi-designed-for.jpg"
-import React from "react";
 
 
 export const Items = [{
@@ -15,7 +14,6 @@ export const Items = [{
     description: "Every parent who wants their baby to fall asleep, stay asleep, and wake up happy in the morning. Whether you’re struggling with sleep or simply making sure you’re doing what’s best for your family, we have you covered.",
     img: image2,
     buttonText: "GET STARTED"
-
 }];
 
 export const accordionItems = [{
@@ -28,21 +26,17 @@ export const accordionItems = [{
     title: 'Is sleep training safe for my baby?', content: 'Contenu de l\'item 3',
 }, {
     title: 'Are there multiple sleep training methods to choose from?', content: 'Contenu de l\'item 3',
+},{
+    title: 'How long does it take for my baby’s sleep to improve?', content: 'Contenu de l\'item 3',
+},{
+    title: 'When can I start training my baby to sleep with the Lumi Smart Sleep Coach?', content: 'Contenu de l\'item 3',
+},{
+    title: 'Can I grant app access to other people who care for my baby?', content: 'Contenu de l\'item 3',
+},{
+    title: 'Is it too late to sleep train my baby?', content: 'Contenu de l\'item 3',
+},{
+    title: 'How long will I have access?', content: 'Contenu de l\'item 3',
+},{
+    title: 'Can I cancel my plan?', content: 'Contenu de l\'item 3',
 },];
 
-export const ListItems = [
-    {
-        id: 0,
-        attr: "A.",
-        content: " We coach.Our Pediatric sleep experts will take you step-by-step to sleep success",
-    },
-    {
-        id: 1,
-        attr: "B.",
-        content: "You log.Record your baby’s sleeps directly within the app",
-    },
-    {
-        id: 2,
-        attr: "C.",
-        content: "We analyze.Daily and weekly sleep insight reports measure your baby’s progress",
-    },];

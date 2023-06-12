@@ -21,8 +21,8 @@ function OurService() {
                         <Infos>
                             <Title>{item.title}</Title>
                             <Description>{item.description}</Description>
+                            <ButtonItem>{item.buttonText}</ButtonItem>
                         </Infos>
-                        <ButtonItem>{item.buttonText}</ButtonItem>
                     </ContainerItem>
                 ))}
             </ServiceContainer>

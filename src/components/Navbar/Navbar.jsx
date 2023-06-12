@@ -14,7 +14,7 @@ import logo from "../../assets/Icons/Logo.svg";
 
 function Navbar() {
  
-  const [showMenu, setShowMenu] = useState(false); // Add state for menu visibility
+  const [showMenu, setShowMenu] = useState(false);
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);

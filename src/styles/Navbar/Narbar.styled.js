@@ -16,11 +16,14 @@ export const Header = styled.header`
   }
 `;
 
-export const Logo = styled.a`{
+export const Logo = styled.a`
+   {
     @media only screen and (max-width: 600px) {
-        margin-top:10px;
+      margin-top: 10px;
     }
-}`
+  }
+`;
+
 export const Nav = styled.nav`
   display: flex;
   align-items: center;
@@ -51,16 +54,17 @@ export const StyledLink = styled.a`
   color: white;
   text-transform: uppercase;
   text-decoration: none;
-  transition: ease-in all .3s;
-  cursor:pointer;
+  transition: ease-in all 0.3s;
+  cursor: pointer;
+  font-size: 12px;
 
   span {
     text-transform: none;
   }
 
   &:hover {
-
-    color: #2C73D2;
+    marigin-bottom:10px;
+    text-decoration: underline;
   }
 
   @media only screen and (max-width: 600px) {
@@ -107,15 +111,18 @@ export const AuthDiv = styled.div`
   }
 `;
 
-export const Authlink = styled.a`{
-    text-decoration:none;
-    margin:0 5px;
-    color:white;
+export const Authlink = styled.a`
+   {
+    text-decoration: none;
+    margin: 0 5px;
+    color: white;
     text-transform: uppercase;
-    text-decoration:underline;
-    transition: ease-in all .3s;
+    text-decoration: underline;
+    transition: ease-in all 0.3s;
+    font-size: 12px;
 
     &:hover {
-        color: #2C73D2;
-      }
-}`
+      text-decoration: underline;
+    }
+  }
+`;

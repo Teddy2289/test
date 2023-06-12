@@ -51,6 +51,7 @@ const Accordion = () => {
                 ))}
                 <Button text="get started"/>
             </Container>
+
         </AccordionContainer>
     );
 };
