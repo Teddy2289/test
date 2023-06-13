@@ -7,12 +7,14 @@ export const Items = [{
     title: "Our mission",
     description: "We’re on a mission to make it easy for every family to sleep better. We apply state-of-the-art technology to science-based sleep understanding so that we can make quality, credible sleep support accessible to everyone – because every baby and their family deserve better sleep!",
     img: image1,
+    reverse: false,
     buttonText: "I WANT BETTER SLEEP"
 }, {
     id: 1,
     title: "Lumi is designed for",
     description: "Every parent who wants their baby to fall asleep, stay asleep, and wake up happy in the morning. Whether you’re struggling with sleep or simply making sure you’re doing what’s best for your family, we have you covered.",
     img: image2,
+    reverse: false,
     buttonText: "GET STARTED"
 }];
 
