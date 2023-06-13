@@ -1,4 +1,5 @@
 # Readme
+TEDDY DEV REACT
 Le projet est structurer de la manière suivante:
 dans src j'ai mis les fichies:
                 -assets
