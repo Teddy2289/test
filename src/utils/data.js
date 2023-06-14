@@ -36,9 +36,5 @@ export const accordionItems = [{
     title: 'Can I grant app access to other people who care for my baby?', content: 'Contenu de l\'item 3',
 },{
     title: 'Is it too late to sleep train my baby?', content: 'Contenu de l\'item 3',
-},{
-    title: 'How long will I have access?', content: 'Contenu de l\'item 3',
-},{
-    title: 'Can I cancel my plan?', content: 'Contenu de l\'item 3',
 },];
 

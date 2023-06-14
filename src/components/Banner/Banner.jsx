@@ -7,7 +7,7 @@ import {
   Description,
 } from "../../styles/Banner/Banner.styled";
 import { motion } from "framer-motion";
-import { fadeInBottomVariant } from "../../utils/variant";
+import { fadeInBottomVariant, fadeInLeftVariant } from "../../utils/variant";
 
 function Banner() {
   return (
@@ -28,7 +28,13 @@ function Banner() {
         </Description>
       </Container>
       {/* Bouton depuis le composant reutilisable dans le dossier layouts */}
-        <Button text="Get started" />
+      <Button
+        as={motion.button}
+        variants={fadeInBottomVariant}
+        initial="hidden"
+        whileInView="visible"
+        text="Get started"
+      />
     </Section>
   );
 }

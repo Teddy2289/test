@@ -6,13 +6,13 @@ import HowItWork from "./components/HowItWork/HowItWork";
 
 function App() {
     return (
-        <div>
+        <>
             <Navbar/>
             <Banner/>
             <HowItWork/>
             <OurService/>
             <Accordion/>
-        </div>
+        </>
     );
 }
 

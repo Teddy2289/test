@@ -9,9 +9,9 @@ import {
   AccordionTitle,
   StyledIcon,
   Title,
+  Button,
   Container,
 } from "../../styles/Accordion/Accordion.styled";
-import Button from "../layouts/Button";
 import { motion } from "framer-motion";
 import { fadeInBottomVariant, fadeInTopVariant } from "../../utils/variant";
 
@@ -79,8 +79,14 @@ const Accordion = () => {
           </AccordionItem>
         ))}
         {/* Bouton en bas de l'accordéon */}
-        <Button text="get started" />
       </Container>
+
+      <Button>
+        <button>
+            GET STARTED
+        </button>
+      </Button>
+
     </AccordionContainer>
   );
 };

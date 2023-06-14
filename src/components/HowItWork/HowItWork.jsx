@@ -3,7 +3,7 @@ import image from "../../assets/Images/how-it-works-mobile.jpg";
 import Buttons from "../layouts/Button";
 import {
   Tag,
-  Container,
+  Section,
   Content,
   HeaderImage,
   List,
@@ -15,7 +15,7 @@ import { motion } from "framer-motion";
 
 const HowItWork = () => {
   return (
-    <Container>
+    <Section>
       <HeaderImage
         as={motion.img}
         variants={fadeInLeftVariant}
@@ -70,7 +70,7 @@ const HowItWork = () => {
         {/* Bouton depuis le composant reutilisable dans le dossier layouts */}
         <Buttons text="get started" />
       </List>
-    </Container>
+    </Section>
   );
 };
 

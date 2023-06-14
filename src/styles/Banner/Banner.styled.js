@@ -18,36 +18,25 @@ export const Section = styled.section`
     width: 100%;
   }
 
-  /* Media query pour tablettes */
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    background-image: url(${mobilebanner});
-    background-size: cover;
-    align-items: end;
-    height: auto;
-    width: 100%;
-    flex-direction: row;
-    justify-content: flex-end;
-
-    button {
-      width: auto;
-      margin: 30px auto;
-      background-color: #f09291;
-    }
-  }
-
-  /* Media query pour les ordinateurs de bureau */
-
-  @media only screen and (min-width: 1025px) {
+  /* Media query pour tablettes et desktop*/
+  @media (min-width: 768px){
     background-image: url(${desktopBanner});
-    width: 100%;
-    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
     flex-direction: row;
+    align-items:flex-end;
     justify-content: flex-end;
 
     button {
-      width: auto;
-      margin: 30px auto;
-      background-color: #f09291;
+      width:330px;
+      height:60px;
+      font-size:24px;
+      font-weight:bold;
+      margin-right: 90px;
+      background-color: rgb(240, 146, 145);
+      margin-bottom: 50px;
     }
   }
 `;
@@ -61,7 +50,6 @@ export const Container = styled.div`
 
   @media (min-width: 768px) {
     width: auto;
-    width: 0;
     visibility: hidden;
   }
 `;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 // Container pour le contenu principal
-export const Container = styled.div`
+export const Section = styled.section`
   margin: 0 auto;
   display: flex;
   gap: 20px;
@@ -14,6 +14,7 @@ export const Container = styled.div`
     width: 100%;
     margin-top: unset;
     flex-direction: row;
+    height: 100vh;
     justify-content: space-between;
     padding: unset;
     gap: unset;
@@ -23,10 +24,12 @@ export const Container = styled.div`
 // Image d'en-tête
 export const HeaderImage = styled.img`
   width: 100%;
+  height: 100%;
   object-fit: cover;
 
   @media (min-width: 768px) {
     width: 50%;
+    height: 100%;
   }
 `;
 
@@ -75,7 +78,10 @@ export const List = styled.div`
     padding: 56px;
 
     & button {
-      width: 50%;
+      width:330px;
+      height:60px;
+      font-size:24px;
+      font-weight:bold;
       background-color: #F09291;
       margin: 0 auto;
     }

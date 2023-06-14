@@ -1,10 +1,15 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
+  @media (min-width: 768px) {
+    height: auto;
+    width: 100%;
+  }
 `;
 
 export const ServiceContainer = styled.div`
   @media (min-width: 768px) {
+    height: auto;
     & div:first-child {
       & img {
         order: 3;
@@ -22,7 +27,6 @@ export const ContainerItem = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
   /* Ce style représente un conteneur pour les éléments */
   /* Il définit les propriétés flexbox pour disposer les éléments en colonne */
   /* Il centre les éléments verticalement et horizontalement */
@@ -37,15 +41,19 @@ export const ContainerItem = styled.div`
 `;
 
 export const Infos = styled.div`
-  margin: 0 31px;
+  padding: 30px;
 
   @media (min-width: 768px) {
     display: flex;
     flex-direction: column;
     padding: 20px;
+    width: 50%;
     gap: 10px;
     & button {
-      width: 50%;
+      width: 330px;
+      height: 60px;
+      font-size:24px;
+      font-weight:bold;
       margin: 0 auto;
     }
   }
@@ -65,6 +73,20 @@ export const Image = styled.img`
   max-width: 100%;
   height: auto;
   @media (min-width: 768px) {
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+  }
+  /* Ce style représente une image */
+  /* Il définit la largeur maximale à 100% et permet à la hauteur de s'ajuster proportionnellement */
+  /* Lorsque la largeur de l'écran atteint au moins 768px, il définit la largeur de l'image à 50% */
+`;
+
+export const ImageConatiner = styled.div`
+  max-width: 100%;
+  height: auto;
+  @media (min-width: 768px) {
+    height: 100%;
     width: 50%;
   }
   /* Ce style représente une image */
@@ -73,9 +95,7 @@ export const Image = styled.img`
 `;
 
 export const Title = styled.h2`
-  margin-top: 20px;
   color: rgb(71, 146, 156);
-  margin-bottom: 20px;
   font-weight: normal;
   text-align: center;
 
@@ -95,6 +115,9 @@ export const Description = styled.p`
   color: #535353;
   @media (min-width: 768px) {
     font-size: 18px;
+    margin: 0 auto;
+    line-height: 1.5;
+    padding: 20px;
   }
 `;
 

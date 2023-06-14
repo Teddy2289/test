@@ -1,19 +1,80 @@
 import styled from "styled-components";
 
-export const AccordionContainer = styled.div`
+export const AccordionContainer = styled.section`
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
   align-items: center;
-  height: 75vh;
+  height: 65vh;
+  padding: 30px;
+  gap: 20px;
 
-  .btn {
-    margin-bottom: 10px;
-  }
   @media (min-width: 768px) {
     width: 40%;
     margin: 0 auto;
+    padding: 30px;
+
+    .buttons {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      button {
+        background-color: #f09291;
+        border-radius: 10px;
+        color: #000000;
+        padding: 10px 50px;
+        outline: none;
+        border: none;
+        width: 330px;
+        height: 60px;
+      }
+    }
+  }
+`;
+
+export const Button = styled.div`
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-bottom: 20px;
+
+button {
+  background-color: #f09291;
+  border-radius: 10px;
+  color: #000000;
+  padding: 10px 50px;
+  outline: none;
+  color:#000000;
+  font-size:16px;
+  font-weight:bold;
+  border: none;
+  width: 100%;
+  height: 45px;
+}
+  @media (min-width: 768px) {
+
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      button {
+        background-color: #f09291;
+        border-radius: 10px;
+        color: #000000;
+        padding: 10px 50px;
+        outline: none;
+        color:#000000;
+        font-size:24px;
+        font-weight:bold;
+        border: none;
+        width: 330px;
+        height: 60px;
+      }
+    }
   }
 `;
 
@@ -21,15 +82,10 @@ export const Container = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 26px;
-  gap: 20px;
 
   @media (min-width: 768px) {
-    width: 80%;
-    button {
-      width: 70%;
-      margin: 0 auto;
-    }
+    width: 38.5%%;
+    height: auto;
   }
 `;
 
@@ -62,7 +118,7 @@ export const Title = styled.h3`
 
   @media (min-width: 768px) {
     font-size: 28px;
-    margin-top:15px;
+    margin-top: 15px;
     font-weight: 400;
   }
 `;
