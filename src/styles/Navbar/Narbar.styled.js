@@ -5,7 +5,7 @@ export const Header = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 10vh;
+  height: auto;
   padding: 0 2rem;
   background-color: #85c5b9;
   color: #fff;
@@ -31,7 +31,7 @@ export const Nav = styled.nav`
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-grow: 1;
+ 
 
   @media only screen and (max-width: 768px) {
     flex-direction: column;

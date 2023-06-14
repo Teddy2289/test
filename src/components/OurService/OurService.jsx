@@ -13,8 +13,6 @@ import {
 import { motion, AnimatePresence } from "framer-motion";
 import {
   fadeInBottomVariant,
-  fadeInLeftVariant,
-  fadeInRightVariant,
   fadeInTopVariant,
 } from "../../utils/variant";
 

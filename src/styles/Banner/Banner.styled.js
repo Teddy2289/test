@@ -31,7 +31,7 @@ export const Section = styled.section`
     button {
       width: auto;
       margin: 30px auto;
-      background-color: #F09291;
+      background-color: #f09291;
     }
   }
 
@@ -39,17 +39,15 @@ export const Section = styled.section`
 
   @media only screen and (min-width: 1025px) {
     background-image: url(${desktopBanner});
-    background-size: cover;
-    align-items: end;
-    height: calc(100vh - 10vh);
     width: 100%;
+    height: 100vh;
     flex-direction: row;
     justify-content: flex-end;
 
     button {
       width: auto;
       margin: 30px auto;
-      background-color: #F09291;
+      background-color: #f09291;
     }
   }
 `;
@@ -62,9 +60,7 @@ export const Container = styled.div`
   border-radius: 8px;
 
   @media (min-width: 768px) {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 40px;
+    width: auto;
     width: 0;
     visibility: hidden;
   }

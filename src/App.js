@@ -1,4 +1,3 @@
-import './App.css';
 import Banner from './components/Banner/Banner';
 import Navbar from './components/Navbar/Navbar';
 import OurService from "./components/OurService/OurService";
@@ -7,7 +6,7 @@ import HowItWork from "./components/HowItWork/HowItWork";
 
 function App() {
     return (
-        <div className="app">
+        <div>
             <Navbar/>
             <Banner/>
             <HowItWork/>
