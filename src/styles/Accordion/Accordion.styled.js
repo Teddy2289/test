@@ -86,6 +86,7 @@ export const Container = styled.div`
   @media (min-width: 768px) {
     width: 38.5%%;
     height: auto;
+    gap:20px;
   }
 `;
 
