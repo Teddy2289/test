@@ -29,7 +29,6 @@ function Banner() {
       </Container>
       {/* Bouton depuis le composant reutilisable dans le dossier layouts */}
       <Button
-        as={motion.button}
         variants={fadeInBottomVariant}
         initial="hidden"
         whileInView="visible"
