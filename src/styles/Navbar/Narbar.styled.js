@@ -9,13 +9,13 @@ export const Header = styled.header`
   padding: 0 2rem;
   background-color: #85c5b9;
   color: #fff;
+  height: 60px;
   position: relative;
 
-  @media only screen and (max-width: 768px) {
+  @media  (max-width: 768px) {
     flex-direction: column;
     height: auto;
-    padding-bottom: 1rem;
-
+    padding-bottom: 1rem
   }
 `;
 
