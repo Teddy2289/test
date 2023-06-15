@@ -9,6 +9,7 @@ export const AccordionContainer = styled.section`
   padding: 30px;
   gap: 20px;
 
+
   @media (min-width: 768px) {
     width: 40%;
     margin: 0 auto;
@@ -42,7 +43,7 @@ justify-content: center;
 padding-bottom: 20px;
 
 button {
-  background-color: #f09291;
+  background-color: #D38E8D;
   border-radius: 10px;
   color: #000000;
   padding: 10px 50px;
@@ -127,7 +128,7 @@ export const Title = styled.h3`
 export const AccordionContent = styled.p`
   padding: 10px;
   color: #282c34;
-  display: ${({ isOpen }) => (isOpen ? "block" : "none")};
+  display: ${({isOpen}) => (isOpen ? "block" : "none")};
 `;
 
 export const StyledIcon = styled.div`

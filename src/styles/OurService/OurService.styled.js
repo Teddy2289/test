@@ -135,6 +135,7 @@ export const ButtonItem = styled.button`
     color: #000000;
     padding: 10px;
     outline: none;
+    font-size: 16px;
     border: none;
 
     @media (min-width: 768px) {
